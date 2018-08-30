@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Admin | Control Board</title>
+
+  <!-- Favicon  -->
+  <link rel="icon" href="/img/core-img/top.png">
+
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -27,7 +31,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div style="font-size:1.8em" class="login-logo">
-    <a href="#"><b>Admin</b> | <span style="font-family:cursive;font-size:30px;font-style:italic;text-shadow: 5px 4px 4px grey;color:purple">Kundagusoma.com</span></a>
+    <a href="#"><b>Admin</b> | <span style="font-family:cursive;font-size:30px;font-weight: 800;font-style:italic;text-shadow: 5px 4px 4px grey;color:green">MSALtd.com</span></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">

@@ -3,11 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Book;
 use App\Admin;
-use App\User;
-use App\Serie;
-use App\Short;
 use App\Message;
 use Mail;
 use DB;
@@ -15,63 +11,115 @@ use Purifier;
 
 class MainPageController extends Controller
 {
-    public function getIndex(){
-        $abana = Book::where('category', '=', 'children')->orderBy('id', 'desc')->limit(3)->get();
-        $urukundo = Book::where('category', '=', 'love_story')->orderBy('id', 'desc')->limit(3)->get();
-        $inganzo = Book::where('category', '=', 'inspiration')->orderBy('id', 'desc')->limit(3)->get();
-        $iterambere = Book::where('category', '=', 'personal')->orderBy('id', 'desc')->limit(3)->get();
-        $iyobokamana = Book::where('category', '=', 'religion')->orderBy('id', 'desc')->limit(3)->get();
-        $series = Serie::orderBy('id', 'desc')->limit(8)->get();
-        $shorts = Short::orderBy('id', 'desc')->limit(8)->get();
-        return view('pages.index')->withChildren($abana)->withLoves($urukundo)->withInspis($inganzo)->withPeople($iterambere)->withReligions($iyobokamana)->withSeries($series)->withShorts($shorts);
+    public function getMining(){
+        return view('pages.mining');
     }
 
-    public function getAbana(){
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $abana = Book::where('category', '=', 'children')->orderBy('id', 'desc')->paginate(10);
-        return view('pages.children')->withChildren($abana)->withAsides($asides);
+    public function getDev(){
+        return view('pages.dev');
     }
 
-    public function getLove()
-    {
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $love = Book::where('category', '=', 'love_story')->orderBy('id', 'desc')->paginate(10);
-        return view('pages.love')->withLoves($love)->withAsides($asides);
+    public function getProspection(){
+        return view('pages.prospection');
     }
 
-    public function getInspiration()
-    {
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $inspiration = Book::where('category', '=', 'inspiration')->orderBy('id', 'desc')->paginate(10);
-        return view('pages.inspiration')->withInspis($inspiration)->withAsides($asides);
+    public function getOperations(){
+        return view('pages.operations');
     }
 
-    public function getPersonal()
-    {
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $people = Book::where('category', '=', 'personal')->orderBy('id', 'desc')->paginate(10);
-        return view('pages.personal')->withPeople($people)->withAsides($asides);
+    public function getProcessing(){
+        return view('pages.processing');
     }
 
-    public function getReligion()
-    {
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $religions = Book::where('category', '=', 'religion')->orderBy('id', 'desc')->paginate(10);
-        return view('pages.religion')->withReligions($religions)->withAsides($asides);
+    public function getTesting(){
+        return view('pages.testing');
     }
 
-    public function getSeries()
-    {
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $series = Serie::orderBy('id', 'desc')->paginate(10);
-        return view('pages.series')->withSeries($series)->withAsides($asides);
+    public function getTagging(){
+        return view('pages.tagging');
     }
 
-    public function getShort()
-    {
-        $asides = Book::orderBy('id', 'desc')->limit(5)->get();
-        $shorts = Short::orderBy('id', 'desc')->paginate(10);
-        return view('pages.short')->withShorts($shorts)->withAsides($asides);
+    public function getProcessingTech(){
+        return view('pages.processingTech');
+    }
+
+    public function getPacking(){
+        return view('pages.packing');
+    }
+
+    public function getShipping(){
+        return view('pages.shipping');
+    }
+
+    public function getTrading(){
+        return view('pages.trading');
+    }
+
+    public function getProduct_port(){
+        return view('pages.product_port');
+    }
+
+    public function getServices(){
+        return view('pages.services');
+    }
+
+    public function getSustainability(){
+        return view('pages.sustainability');
+    }
+
+    public function getQuality(){
+        return view('pages.quality');
+    }
+
+    public function getSafety(){
+        return view('pages.safety');
+    }
+
+    public function getEnv_sust(){
+        return view('pages.env_sust');
+    }
+
+    public function getITRI(){
+        return view('pages.ITRI');
+    }
+
+    public function getVisionMission(){
+        return view('pages.vision_mission');
+    }
+
+    public function getCorporate_gov(){
+        return view('pages.corporate_gov');
+    }
+
+    public function getLocation(){
+        return view('pages.location');
+    }
+
+    public function getTeam(){
+        return view('pages.team');
+    }
+    public function getManagement(){
+        return view('pages.management');
+    }
+
+    public function getCareers(){
+        return view('pages.careers');
+    }
+
+    public function getJobs(){
+        return view('pages.jobs');
+    }
+
+    public function getApplication(){
+        return view('pages.application');
+    }
+
+    public function getGTC(){
+        return view('pages.GTC');
+    }
+
+    public function getLegal_notice(){
+        return view('pages.legal_notice');
     }
 
     public function getContact()
@@ -103,7 +151,7 @@ class MainPageController extends Controller
             $message->subject($data['subject']);
         });*/
 
-        $request->session()->flash('success', 'Ikifuzo cyawe cyakiriwe. Murakoze');
+        $request->session()->flash('success', 'Your message is successfully received. Thank you.');
 
         return redirect()->route('contact');
     }

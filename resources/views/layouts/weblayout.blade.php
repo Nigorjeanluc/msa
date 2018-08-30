@@ -1,35 +1,31 @@
-<!-- === BEGIN HEADER === -->
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-    <!--<![endif]-->
+
+<head>
     @include('pagepartials._head')
-    <body>
-        <div id="body_bg">
-            @include('pagepartials._headerbuttons')
-            <div class="primary-container-group">
-                <!-- Background -->
-                <div class="primary-container-background">
-                    <div class="primary-container"></div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--End Background -->
-                <div class="primary-container">
-                    @include('pagepartials._navigation')
-                    <div class="container no-padding">
-                        <!-- === END HEADER === -->
-                        <!-- === BEGIN CONTENT === -->
-                        @yield('content')
-                        <!-- === END CONTENT === -->
-                    </div>
-                    @include('pagepartials._mainfooter')
-                </div>
-            </div>
-            @include('pagepartials._footer')
+
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    @include('pagepartials._header')
+    <!-- Header Area End -->
+    @yield('headSection')
+
+    <section class="gazette-contact-area section_padding_100">
+        <div class="container">
+            @yield('content')
         </div>
-        @include('pagepartials._scripts')
-    </body>
+    </section>
+
+
+    <!-- Footer Area Start -->
+    @include('pagepartials._footer')
+    <!-- Footer Area End -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    @include('pagepartials._scripts')
+
+</body>
+
 </html>
-<!-- === END FOOTER === -->

@@ -39,58 +39,34 @@
     
                 @endif
     </div>
-    <div class="col-md-6 col-md-offset-3">
-        <!-- Widget: user widget style 1 -->
-        <div class="box box-widget widget-user-2">
-            <!-- Add the bg color to the header using any of the bg-* classes -->
-            <div class="widget-user-header bg-aqua">
-                <div class="widget-user-image">
-                  <img class="img-circle" src="/admin/dist/img/userAvatar.png" alt="User Avatar">
-                </div>
-                <!-- /.widget-user-image -->
-                <h3 class="widget-user-username">{{ ucfirst($post->name) }}</h3>
-                <h5 class="widget-user-desc">Member since {{ date('M, Y', strtotime($post->created_at)) }}</h5>
-            </div>
-            <div class="box-footer no-padding">
-                <ul class="nav nav-stacked">
-                  <li><a href="#">Books <span class="pull-right badge bg-green">0</span></a></li>
-                  <li><a href="#">Email <span class="pull-right badge bg-aqua">{{ $post->email }}</span></a></li>
-                  <li><a href="#">Added on <span class="pull-right badge bg-green">{{ date('M j, Y h:i A', strtotime($post->created_at)) }}</span></a></li>
-                  @if(Auth::user()->job_title == 'admin')
-                    <li><a href="#">{!! ucfirst($post->message) !!}</a></li>
-                    <li><a href="{{ route('admin.admins.destroy', $post->id) }}"onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();">Delete {{ ucfirst($post->name)."'s message" }}<span class="pull-right badge bg-red">Delete</span></a>
-                        {!! Form::open(['route' =>['admin.admins.destroy', $post->id], 'method' => 'DELETE', 'id' => 'logout-form']) !!}
-                            {{ csrf_field() }}
-                        {!! Form::close() !!}
-                    </li>
-                  @endif
-                </ul>
-            </div>
-        </div>
-        <!-- /.widget-user -->
-        <div class="box box-danger collapsed-box">
+    <div class="col-md-12">
+          <div class="box box-primary">
             <div class="box-header with-border">
-                <h3 class="box-title">{{ ucfirst($post->name)."'s recently book" }}</h3>
-    
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Books">
-                    <i class="fa fa-minus"></i></button>
-                </div>
+              <h3 class="box-title">Read message</h3>
             </div>
-            <div class="box-body">
-                <img class="img-responsive pad" src="{{asset('images/news/'. $post->image) }}" alt="No Picture Available">
-                <h3 class="text-center">{{ $post->name }}</h3>
-                <p>{{ $post->email }}</p>
-                <span class="description">Posted on - {{ date('M j, Y h:i A', strtotime($post->created_at)) }}</span>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <div class="mailbox-read-info">
+                <h3>{{ ucfirst($post->name) }}</h3>
+                <h5>From: {{ ucfirst($post->email) }}
+                  <span class="mailbox-read-time pull-right badge bg-green">{{ date('j M. Y h:i A', strtotime($post->created_at)) }}</span></h5>
+              </div>
+              <!-- /.mailbox-read-info -->
+              
+              <!-- /.mailbox-controls -->
+              <div class="mailbox-read-message">
+                {!! $post->message !!}
+              </div>
+              <!-- /.mailbox-read-message -->
             </div>
-            <!-- /.box-body -->
+            <!-- /.box-footer -->
             <div class="box-footer">
-                Footer
+              <button type="button" class="btn btn-warning"><i class="fa fa-trash-o"></i> Delete</button>
+              <button type="button" class="btn btn-info"><i class="fa fa-print"></i> Print</button>
             </div>
-            <!-- /.box-footer-->
-        </div>
-        <!-- /.box -->
+            <!-- /.box-footer -->
+          </div>
+          <!-- /. box -->
     </div>
 </div>
 @endsection

@@ -2,6 +2,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Admin | @yield('title')</title>
 <!-- Tell the browser to be responsive to screen width -->
+
+<!-- Favicon  -->
+<link rel="icon" href="/img/core-img/top.png">
+
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <!-- Bootstrap 3.3.6 -->
 <link rel="stylesheet" href="/admin/bootstrap/css/bootstrap.min.css">

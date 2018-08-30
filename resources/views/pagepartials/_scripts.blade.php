@@ -1,14 +1,12 @@
-        <!-- JS -->
-        //<script type="text/javascript" src="/js/vue.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/js/jquery.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/js/bootstrap.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/js/scripts.js"></script>
-        <!-- Isotope - Portfolio Sorting -->
-        <script type="text/javascript" src="/js/jquery.isotope.js" type="text/javascript"></script>
-        <!-- Mobile Menu - Slicknav -->
-        <script type="text/javascript" src="/js/jquery.slicknav.js" type="text/javascript"></script>
-        <!-- Animate on Scroll-->
-        <script type="text/javascript" src="/js/jquery.visible.js" charset="utf-8"></script>
-        <!-- Modernizr -->
-        <script src="/js/modernizr.custom.js" type="text/javascript"></script>
-        <!-- End JS -->
+        <script src="/js/jquery/jquery-2.2.4.min.js"></script>
+        <!-- Popper js -->
+        <script src="/js/popper.min.js"></script>
+        <!-- Bootstrap js -->
+        <script src="/js/bootstrap.min.js"></script>
+        <!-- Plugins js -->
+        <script src="/js/plugins.js"></script>
+        <!-- Active js -->
+        <script src="/js/active.js"></script>
+        <!-- Google Maps js -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk"></script>
+        <script src="/js/map-active.js"></script>

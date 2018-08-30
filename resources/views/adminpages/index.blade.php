@@ -35,7 +35,7 @@
         <!-- small box -->
         <div class="small-box bg-purple">
             <div class="inner">
-                <h4>All Users</h4>
+                <h4>Hiring</h4>
           
                 <p>{{ $userNum->count() }} Users now</p>
             </div>
@@ -51,7 +51,7 @@
         <!-- small box -->
         <div class="small-box bg-green">
             <div class="inner">
-                <h4>All Books</h4>
+                <h4>Applications</h4>
           
                 <p>{{ $bookNum->count() }} Books now</p>
             </div>
@@ -67,7 +67,7 @@
         <!-- small box -->
         <div class="small-box bg-gray">
             <div class="inner">
-                <h4>All Serie Stories</h4>
+                <h4>News</h4>
           
                 <p>{{ $serieNum->count() }} Series now</p>
             </div>
@@ -77,21 +77,5 @@
             <a href="{{ route('series.index') }}" class="small-box-footer">More <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-yellow">
-            <div class="inner">
-                <h4>All Short Stories</h4>
-          
-                <p>{{ $shortNum->count() }} Short Stories now</p>
-            </div>
-            <div class="icon">
-                <i class="ion ion-clipboard"></i>
-            </div>
-            <a href="{{ route('shorts.index') }}" class="small-box-footer">More <i class="fa fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <!-- ./col -->
 </div>
 @endsection

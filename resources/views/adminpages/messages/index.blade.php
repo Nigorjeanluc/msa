@@ -15,49 +15,54 @@
 
 @section('content')
 <div class="row">
-    <div class="col-md-12">
-        <!-- Default box -->
-        <div class="box">
+        <div class="col-md-12">
+          <div class="box box-primary">
             <div class="box-header with-border">
-            <h3 class="box-title">All Messages</h3>
+              <h3 class="box-title">All messages</h3>
 
-            <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                <i class="fa fa-minus"></i></button>
+              {{-- <div class="box-tools pull-right">
+                <div class="has-feedback">
+                  <input type="text" class="form-control input-sm" placeholder="Search Mail">
+                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+              </div> --}}
+              <!-- /.box-tools -->
             </div>
-            </div>
+            <!-- /.box-header -->
             <div class="box-body no-padding">
-                <table class="table">
-                    <tr>
-                        <th style="width: 10px">#</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Signed Up at</th>
-                        <th>Control</th>
-                    </tr>
+              <div class="table-responsive mailbox-messages">
+                <table class="table table-hover table-striped">
+                  <tbody>
                     @foreach ($posts as $post)
-                        <tr>
-                            <th>{{ $post->id }}</th>
-                            <td><b>{{ substr($post->name, 0, 30) }}{{ strlen($post->name) > 30 ? "..." : "" }}</b></td>
-                            <td>{{ substr($post->email, 0, 30) }}{{ strlen($post->email) > 30 ? "..." : "" }}</td>
-                            <td>{{ date('M j, Y', strtotime($post->created_at)) }}</td>
-                            <td>
-                                <a style="color:#fff" href="{{ route('admin.messages.show', $post->id) }}" class="btn btn-info btn-flat btn-sm">View</a> 
-                                @if(Auth::user()->job_title == 'admin')
-                                <a style="color:#fff" href="{{ route('admin.messages.show', $post->id) }}" class="btn btn-danger btn-flat btn-sm">Delete</a>
-                                @endif
-                            </td>
-                        </tr>
+                    <tr>
+                        <td class="mailbox-name"><b>{{ substr($post->name, 0, 30) }}{{ strlen($post->name) > 30 ? "..." : "" }}</b></td>
+                        <td class="mailbox-subject">
+                            <b>{{ $post->phone }}</b> - {{ substr(strip_tags($post->message), 0, 50) }}{{ strlen(strip_tags($post->message)) > 50 ? '...' : "" }}
+                        </td>
+                        <td>{{ substr($post->email, 0, 30) }}{{ strlen($post->email) > 30 ? "..." : "" }}</td>
+                        <td class="mailbox-date">{{ date('M j, Y', strtotime($post->created_at)) }}</td>
+                        <td>
+                            <a style="color:#fff" href="{{ route('admin.messages.show', $post->id) }}" class="btn btn-info btn-flat btn-sm">View</a> 
+                            @if(Auth::user()->job_title == 'admin')
+                            <a style="color:#fff" href="{{ route('admin.messages.show', $post->id) }}" class="btn btn-danger btn-flat btn-sm">Delete</a>
+                            @endif
+                        </td>
+                    </tr>
                     @endforeach
+                  </tbody>
                 </table>
+                <!-- /.table -->
+              </div>
+              <!-- /.mail-box-messages -->
             </div>
             <!-- /.box-body -->
-            <div class="box-footer">
-                <center>{!! $posts->links() !!}</center>
+            <div class="box-footer no-padding">
+              <center>{!! $posts->links() !!}</center>
             </div>
-            <!-- /.box-footer-->
+          </div>
+          <!-- /. box -->
         </div>
-        <!-- /.box -->
-    </div>
+        <!-- /.col -->
+
 </div>
 @endsection
