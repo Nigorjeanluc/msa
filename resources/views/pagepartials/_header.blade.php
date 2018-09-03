@@ -3,7 +3,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Breaking News Area -->
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-8 col-sm-8 col-xs-8">
                         <div class="breaking-news-area">
                             <!--<h5 class="breaking-news-title">Breaking news</h5>-->
                             <!--<div id="breakingNewsTicker" class="ticker">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <!-- Stock News Area -->
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 col-sm-4 col-xs-4">
                         <div class="stock-news-area">
                             <div class="ticker">
                                 <ul>
@@ -65,20 +65,20 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Logo Area -->
-                    <div class="col-12 col-md-2">
+                    <div class="col-12 col-md-2 col-sm-2 col-xs-2">
                         <div class="logo-area">
                             <a href="{{ route('/') }}"><img style="height:120px" src="img/core-img/logo.jpg" alt="logo"></a>
                         </div>
                     </div>
                     <!-- Header Advert Area -->
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 hidden-sm hidden-xs">
                         <div class="header-advert-area">
-                            <h1>Minerals Supply Africa Ltd.</h1>
+                            <center><h1 id="companyName">Minerals Supply Africa Ltd.</h1></center>
                             <!--<a href="#"><img src="img/bg-img/top-advert.png" alt="header-add"></a>-->
                         </div>
                     </div>
                     <!-- Logo Area -->
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 col-sm-4 col-xs-4">
                         <div class="logo-area">
                             <a href="http://www.cronimet-mining.com/" target="_blank"><img style="height:120px" src="img/core-img/acron.jpg" alt="logo"></a>
                         </div>

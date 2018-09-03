@@ -1,5 +1,5 @@
 <!-- Footer Area Start -->
-    <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
+    <footer class="footer-area bg-img1 background-overlay1" style="background-image: url(img/bg-img/4.jpg);">
         <!-- Top Footer Area -->
         <div class="top-footer-area section_padding_100_70">
             <div class="container">

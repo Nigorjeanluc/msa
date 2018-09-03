@@ -53,12 +53,17 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Operations</h4>
+                        <h4 class="font-bold">Crushing</h4>
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>
-                            <h6 class="font-pt mb-0">“CRONIMET Mining has several operational and strategic investments as well as its own mines. We mine copper, molybdenum, chrome and platinum in Africa before selling these to leading raw materials processors around the world. Thanks to systematic investment, we are currently able to mine 20 million tons of ore per year.”</h6>
+                            <h6 class="font-pt mb-0">
+                                    The material is crushed in our Crushing Machines till it is a powder. We also use Magnetic Separators to separate materials which are mixed and to separate them into Iron, Tin or Tantalum. The iron is discarded but the Tin and Tantalum are stored. All materials are weighed at different stages of the process.
+                            </h6>
                         </blockquote>
+                        <div class="row imgs">
+                            <div class="col-md-12"><center><img src="{{ asset('img/bg-img/msa7.jpg') }}"></center></div>
+                        </div>
                     </div>
                 </div>
             </div>

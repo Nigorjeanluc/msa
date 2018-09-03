@@ -132,7 +132,7 @@ img {
 }
 
 .background-overlay:before {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.001);
 }
 
 .background-overlay-5:before {
@@ -140,6 +140,39 @@ img {
 }
 
 .background-overlay-white:before {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.background-overlay1,
+.background-overlay1-5,
+.background-overlay1-white {
+    position: relative;
+    z-index: 2;
+    background-position: center center;
+    background-size: cover;
+}
+
+.background-overlay1:before,
+.background-overlay1-5:before,
+.background-overlay1-white:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.background-overlay1:before {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.background-overlay1-5:before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.background-overlay1-white:before {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -219,6 +252,12 @@ img {
     background-repeat: no-repeat;
 }
 
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .bg-gray {
     background-color: #f6f6f6;
 }
@@ -252,7 +291,7 @@ img {
 }
 
 .font-bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .font-light {
@@ -1092,7 +1131,7 @@ img {
 
 .single-post-title {
     width: 100%;
-    height: 150px;
+    height: 350px;
     position: relative;
     z-index: 1;
 }
@@ -1109,7 +1148,7 @@ img {
 }
 
 .single-post-title-content {
-    padding-bottom: 40px;
+    padding-bottom: 250px;
 }
 
 .single-post-contents .col-12:first-child .single-post-text p:first-child:first-letter {
@@ -1315,4 +1354,17 @@ textarea.form-control {
 
 .copywrite-text p>a {
     color: #fff;
+}
+
+.imgs {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.corp {
+    margin-top: 20px;
+}
+
+#companyName {
+    font-weight:600
 }

@@ -53,9 +53,21 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Operations</h4>
+                        <h4 class="font-bold">OUR FIVE GOLDEN RULES OF BEST CORPORATE GOVERNANCE PRACTICE ARE:</h4>
                     </div>
-                   <div class="single-post-blockquote">
+                    <div class="single-post-blockquote">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-success"><b>Ethics:</b> a clearly ethical basis to the business</li>
+                            <li class="list-group-item list-group-item-success"><b>Align Business Goals:</b> appropriate goals, arrived at through the creation of a suitable stakeholder decision making model</li>
+                            <li class="list-group-item list-group-item-success"><b>Strategic management:</b> an effective strategy process which incorporates stakeholder value</li>
+                            <li class="list-group-item list-group-item-success"><b>Organization:</b> an organization suitably structured to effect good corporate governance</li>
+                            <li class="list-group-item list-group-item-success"><b>Reporting:</b> reporting systems structured to provide transparency and accountability</li>
+                        </ul>
+                    </div>
+                    <div class="gazette-heading corp">
+                        <h4 class="font-bold">ETHICAL PRINCIPLES</h4>
+                    </div>
+                    <div class="single-post-blockquote">
                         <blockquote>
                             <h6 class="font-pt mb-0">“CRONIMET Mining has several operational and strategic investments as well as its own mines. We mine copper, molybdenum, chrome and platinum in Africa before selling these to leading raw materials processors around the world. Thanks to systematic investment, we are currently able to mine 20 million tons of ore per year.”</h6>
                         </blockquote>

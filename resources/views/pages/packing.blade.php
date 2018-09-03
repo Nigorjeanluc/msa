@@ -12,7 +12,7 @@
                         <div class="single-post-title-content">
                             <!-- Post Tag -->
                             <div style="font-size: 3.5em" class="gazette-post-tag">
-                                <a href="#">Research & development</a>
+                                <a href="#">Packing</a>
                             </div>
                             {{--  <h2 class="font-pt">Active in Rwanda</h2>
                             <p>To sustainably supply raw materials of the highest quality, we use the latest technologies and production methods.</p>  --}}
@@ -53,11 +53,17 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Operations</h4>
+                        <h4 class="font-bold">Packing</h4>
                     </div>
                    <div class="single-post-blockquote">
+                        <div class="row imgs">
+                            <div class="col-md-6"><img src="{{ asset('img/bg-img/msa4.jpg') }}"></div>
+                            <div class="col-md-6"><img src="{{ asset('img/bg-img/msa2.jpg') }}"></div>
+                        </div>
                         <blockquote>
-                            <h6 class="font-pt mb-0">“CRONIMET Mining has several operational and strategic investments as well as its own mines. We mine copper, molybdenum, chrome and platinum in Africa before selling these to leading raw materials processors around the world. Thanks to systematic investment, we are currently able to mine 20 million tons of ore per year.”</h6>
+                            <h6 class="font-pt mb-0">
+                                Before Packing in Steel Drums for Export, all drums must be issued with a Tag conforming to the iTSCi Programme. Resources Authority/Geology and Mines Department (GMD) have an office at our facility and they are the government body responsible for checking the incoming mineral Tags and also for issuing the final export tag for the processed minerals.
+                            </h6>
                         </blockquote>
                     </div>
                 </div>

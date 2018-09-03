@@ -53,12 +53,17 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Operations</h4>
+                        <h4 class="font-bold">Tagging</h4>
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>
-                            <h6 class="font-pt mb-0">“CRONIMET Mining has several operational and strategic investments as well as its own mines. We mine copper, molybdenum, chrome and platinum in Africa before selling these to leading raw materials processors around the world. Thanks to systematic investment, we are currently able to mine 20 million tons of ore per year.”</h6>
+                            <h6 class="font-pt mb-0">
+                                    It should be noted that all material arriving at our facility MUST be tagged. The <a class="link" href="https://www.itri.co.uk/itsci/itsci-project-overview/itsci-project-overview" target="_blank">iTSCi</a> Programme is a joint industry membership programme designed to assist companies with traceability, due diligence and audit requirements on purchases of minerals from high risk areas as recommended in the OECD Due Diligence Guidelines and UN recommendations. iTSCi activities are based around inclusivity and encouraging progressive improvement in the supply chain. The Programme aims to aid compliance with the US Dodd Frank Law, section 1502 on conflict minerals, in relation to the Rules published by the SEC but is not in itself a certification system. It also compliments other initiatives, including the CFSI's Conflict-Free Smelter audit programme (CFSP), the ICGLR's Regional Certification Initiative, and BGR's Certified Trading Chains Initiative (CTC)
+                            </h6>
                         </blockquote>
+                        <div class="row imgs">
+                            <div class="col-md-12"><img src="{{ asset('img/bg-img/itsci.jpg') }}"></div>
+                        </div>
                     </div>
                 </div>
             </div>
