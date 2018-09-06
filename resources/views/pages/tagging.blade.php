@@ -56,6 +56,9 @@
                         <h4 class="font-bold">Tagging</h4>
                     </div>
                    <div class="single-post-blockquote">
+                        <div class="row imgs">
+                            <div class="col-md-12"><center><img src="{{ asset('img/bg-img/tag.jpg') }}"></center></div>
+                        </div>
                         <blockquote>
                             <h6 class="font-pt mb-0">
                                     It should be noted that all material arriving at our facility MUST be tagged. The <a class="link" href="https://www.itri.co.uk/itsci/itsci-project-overview/itsci-project-overview" target="_blank">iTSCi</a> Programme is a joint industry membership programme designed to assist companies with traceability, due diligence and audit requirements on purchases of minerals from high risk areas as recommended in the OECD Due Diligence Guidelines and UN recommendations. iTSCi activities are based around inclusivity and encouraging progressive improvement in the supply chain. The Programme aims to aid compliance with the US Dodd Frank Law, section 1502 on conflict minerals, in relation to the Rules published by the SEC but is not in itself a certification system. It also compliments other initiatives, including the CFSI's Conflict-Free Smelter audit programme (CFSP), the ICGLR's Regional Certification Initiative, and BGR's Certified Trading Chains Initiative (CTC)

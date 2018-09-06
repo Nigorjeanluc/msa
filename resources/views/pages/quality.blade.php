@@ -53,7 +53,19 @@
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>
-                            <h6 class="font-pt mb-0">“CRONIMET Mining has several operational and strategic investments as well as its own mines. We mine copper, molybdenum, chrome and platinum in Africa before selling these to leading raw materials processors around the world. Thanks to systematic investment, we are currently able to mine 20 million tons of ore per year.”</h6>
+                            <h6 class="font-pt mb-0">
+                                    Minerals Supply Africa (MSA) 
+                                    is a Rwanda-based company 
+                                    owned by CRONIMET Central 
+                                    Africa AG (CCA). It deals in 
+                                    Procurement, Processing & Exporting
+                                    of Coltan, Cassiterite and Wolfram minerals.
+                                    Established in 2008, the Company’s goal 
+                                    is to increase mineral production, so it 
+                                    partners and supports individual miners, 
+                                    cooperatives and companies involved in the 
+                                    sector to make this a reality
+                            </h6>
                         </blockquote>
                     </div>
                 </div>

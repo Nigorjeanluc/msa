@@ -52,47 +52,28 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-8">
-                    <div class="team-area mt-50">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3 class="font-pt mb-50">Our Team</h3>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 col-sm-6 col-md-3">
-                                    <div class="single-team-area">
-                                        <img src="img/bg-img/ceo.jpg" alt="">
-                                        <div class="team-member-data">
-                                            <h4 class="font-pt">Director Manager</h4>
-                                            <div class="team-member-designation-social-info d-flex align-items-cente justify-content-between">
-                                                <h5 class="font-pt mb-0">Her name</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-3">
-                                    <div class="single-team-area">
-                                        <img src="img/bg-img/cc1.jpg" alt="">
-                                        <div class="team-member-data">
-                                            <h4 class="font-pt">Chief of Marketing</h4>
-                                            <div class="team-member-designation-social-info d-flex align-items-cente justify-content-between">
-                                                <h5 class="font-pt mb-0">Name</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Operations</h4>
+                        <h4 class="font-bold">Our vision</h4>
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>
-                            <h6 class="font-pt mb-0">“CRONIMET Mining has several operational and strategic investments as well as its own mines. We mine copper, molybdenum, chrome and platinum in Africa before selling these to leading raw materials processors around the world. Thanks to systematic investment, we are currently able to mine 20 million tons of ore per year.”</h6>
+                            <h6 class="font-pt mb-0">
+                                    To become the leader in minerals processing
+                                    and trading industry in the region<br>To provide quality Minerals that exceed the expectation of our esteemed customers
+                            </h6>
+                        </blockquote>
+                    </div>
+
+                    <div class="gazette-heading corp">
+                        <h4 class="font-bold">Our mission</h4>
+                    </div>
+                   <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                    To understand the need of our customers and match that need with the right production of the Rwandan mining Industry <br>To build a long
+                                    term relationship with customers and suppliers based on mutual trust and respect <br>To offer geological advices for an efficient and environmental friendly mining sector <br>To Advocate and implement the mineral traceability
+                                    for responsible mineral supply chain.
+                            </h6>
                         </blockquote>
                     </div>
                 </div>

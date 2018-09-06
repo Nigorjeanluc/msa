@@ -107,7 +107,7 @@ img {
 }
 
 .font-pt {
-    font-family: 'PT Serif', serif !important;
+    font-family: 'Segoe UI Semibold', serif !important;
 }
 
 .background-overlay,
@@ -547,6 +547,7 @@ img {
 .main-menu .navbar.navbar-expand-lg .nav-link {
     color: rgba(0, 0, 0, 0.75);
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .main-menu .navbar.navbar-expand-lg .nav-item.active .nav-link,
@@ -560,7 +561,7 @@ img {
 }
 
 .main-menu .dropdown-item {
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -1366,5 +1367,5 @@ textarea.form-control {
 }
 
 #companyName {
-    font-weight:600
+    font-weight: 600
 }
