@@ -32,23 +32,23 @@
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('testing') }}" class="font-pt">Testing</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button active" href="{{ route('testing') }}">Testing</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('tagging') }}" class="font-pt">Tagging</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('tagging') }}">Tagging</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('processing_tech') }}" class="font-pt">Processing technologies</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('processing_tech') }}">Processing technologies</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('packing') }}" class="font-pt">Packing</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('packing') }}">Packing</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('shipping') }}" class="font-pt">Shipping</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('shipping') }}">Shipping</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-8">
@@ -58,12 +58,14 @@
                    <div class="single-post-blockquote">
                         <blockquote>
                             <h6 class="font-pt mb-0">
-                                Using our Spectrum Analyzer we produce an Analysis Certificate showing the type of material received, the number of bags and their weight and also if the material has been mixed or milled.
+                                Minerals are sampled , weighed, sent to 
+                                our modern lab and analyzed to determine 
+                                grade for payment on the same day.
                             </h6>
                         </blockquote>
                         <div class="row imgs">
-                            <div class="col-md-6"><img src="{{ asset('img/bg-img/msa8.jpg') }}"></div>
-                            <div class="col-md-6"><img src="{{ asset('img/bg-img/msa1.jpg') }}"></div>
+                            <div class="col-md-6"><img class="imgss" src="{{ asset('img/bg-img/msa10.jpg') }}"></div>
+                            <div class="col-md-6"><img class="imgss" src="{{ asset('img/bg-img/msa8.jpg') }}"></div>
                         </div>
                         <blockquote>
                             <h6 class="font-pt mb-0">

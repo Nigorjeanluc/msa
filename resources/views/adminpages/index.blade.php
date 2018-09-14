@@ -46,36 +46,5 @@
         </div>
     </div>
     <!-- ./col -->
-
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-green">
-            <div class="inner">
-                <h4>Applications</h4>
-          
-                <p>{{ $bookNum->count() }} Books now</p>
-            </div>
-            <div class="icon">
-                <i class="ion ion-social-buffer"></i>
-            </div>
-            <a href="{{ route('books.index') }}" class="small-box-footer">More <i class="fa fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
-    <!-- ./col -->
-
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-gray">
-            <div class="inner">
-                <h4>News</h4>
-          
-                <p>{{ $serieNum->count() }} Series now</p>
-            </div>
-            <div class="icon">
-                <i class="ion ion-calendar"></i>
-            </div>
-            <a href="{{ route('series.index') }}" class="small-box-footer">More <i class="fa fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
 </div>
 @endsection

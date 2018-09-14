@@ -125,7 +125,7 @@
                                             </div>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link" href="#">Publications</a>
+                                            <a class="nav-link {{ Request::is('publications') ? "active" : "" }}" href="{{ route('publications') }}">Publications</a>
                                         </li>
                                         <li class="nav-item {{ Request::is('vision_mission')||Request::is('corporate_gov')||Request::is('management')||Request::is('team') ? "active" : ""}} dropdown">
                                             <a class="nav-link dropdown-toggle pipDrop3" href="#" id="navbarDropdownxxx" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us</a>

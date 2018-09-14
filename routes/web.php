@@ -41,6 +41,7 @@ Route::get('/current_jobs_offers', ['uses' => 'MainPageController@getJobs', 'as'
 Route::get('/online_application', ['uses' => 'MainPageController@getApplication', 'as' => 'application']);
 Route::get('/GTC', ['uses' => 'MainPageController@getGTC', 'as' => 'GTC']);
 Route::get('/legal_notice', ['uses' => 'MainPageController@getLegal_notice', 'as' => 'legal_notice']);
+Route::get('/publications', ['uses' => 'MainPageController@getPublication', 'as' => 'publications']);
 Route::get('/contact_us', ['uses' => 'MainPageController@getContact', 'as' => 'contact']);
 Route::post('/contact_us', ['uses' => 'MainPageController@postContact', 'as' => 'contact']);
 
@@ -63,19 +64,15 @@ Route::prefix('admin')->group(function() {
         Route::get('/{post}', 'UserController@show')->name('admin.users.show');
     });
 
+    
+    Route::resource('publications', 'PublicationController');
+
     Route::prefix('messages')->group(function(){
         Route::get('/', 'MessageController@getMessages')->name('admin.messages');
         Route::get('/{post}', 'MessageController@show')->name('admin.messages.show');
     });
-
-    Route::resource('/books', 'BookController');
-    Route::resource('/series', 'SerieController');
-    Route::resource('/shorts', 'ShortController');
 });
-
 Route::get('{id}', ['as' => 'single', 'uses' => 'SingleController@getSingle']);
-Route::get('/serie/{id}', ['as' => 'seriesStories', 'uses' => 'SingleController@getSeries']);
-Route::get('/short/{id}', ['as' => 'shortStories', 'uses' => 'SingleController@getShorts']);
 Route::get('/ibitabo/{$pdf}', 'DownloadController@download')->name('download');
 
 /*

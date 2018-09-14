@@ -32,19 +32,19 @@
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('quality') }}" class="font-pt">Quality</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('quality') }}">Quality</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('safety') }}" class="font-pt">Safety</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('safety') }}" >Safety</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('env_sustainability') }}" class="font-pt">Environmental Sustainability</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('env_sustainability') }}" >Environmental Sustainability</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('ITRI') }}" class="font-pt">ITRI</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button active" href="{{ route('ITRI') }}">ITRI</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-8">

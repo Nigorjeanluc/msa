@@ -32,30 +32,40 @@
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('testing') }}" class="font-pt">Testing</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('testing') }}">Testing</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('tagging') }}" class="font-pt">Tagging</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button active" href="{{ route('tagging') }}">Tagging</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('processing_tech') }}" class="font-pt">Processing technologies</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('processing_tech') }}">Processing technologies</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('packing') }}" class="font-pt">Packing</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('packing') }}">Packing</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('shipping') }}" class="font-pt">Shipping</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('shipping') }}">Shipping</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
                         <h4 class="font-bold">Tagging</h4>
                     </div>
-                   <div class="single-post-blockquote">
+                    <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                    Reception of minerals tagged with tag  
+                                    mine in presence of the GMD agent.
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                    Quick processing of minerals (crushing, 
+                                    separation) on our yard.
+                            </h6>
+                        </blockquote>
                         <div class="row imgs">
                             <div class="col-md-12"><center><img src="{{ asset('img/bg-img/tag.jpg') }}"></center></div>
                         </div>

@@ -56,6 +56,7 @@
                             <ul class="footer-widget-menu">
                                 <li><a href="{{ route('location') }}">Location</a></li>
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
+                                <li><a href="{{ route('publications') }}">Publications</a></li>
                                 <li><a href="{{ route('GTC') }}">GTC</a></li>
                                 <li><a href="{{ route('legal_notice') }}">Legal notice</a></li>
                             </ul>

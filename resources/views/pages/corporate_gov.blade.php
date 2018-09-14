@@ -32,23 +32,23 @@
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('corporate_gov') }}" class="font-pt">Corporate Governance</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button active" href="{{ route('corporate_gov') }}">Corporate Governance</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('vision_mission') }}" class="font-pt">Vision & Mission</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('vision_mission') }}">Vision & Mission</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('management') }}" class="font-pt">Management</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('management') }}">Management</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('location') }}" class="font-pt">Location</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('team') }}">Our team</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <h5><a href="{{ route('contact') }}" class="font-pt">Contact Us</a></h5>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('contact') }}">Contact Us</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-8">

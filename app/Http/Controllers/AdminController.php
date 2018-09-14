@@ -5,10 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Admin;
 use App\User;
-use App\Serie;
-use App\Short;
 use App\Message;
-use App\Book;
 
 class AdminController extends Controller
 {
@@ -31,11 +28,8 @@ class AdminController extends Controller
     {
         $AllUsers = User::all();
         $AllAdmins = Admin::all();
-        $AllSeries = Serie::all();
-        $AllBooks = Book::all();
-        $AllShorts = Short::all();
         $AllMessages = Message::where('readed', '=', 0)->orderBy('id', 'desc')->get();
-        return view('adminpages.index')->withUserNum($AllUsers)->withAdminNum($AllAdmins)->withSerieNum($AllSeries)->withBookNum($AllBooks)->withShortNum($AllShorts)->withMessages($AllMessages);
+        return view('adminpages.index')->withUserNum($AllUsers)->withAdminNum($AllAdmins)->withMessages($AllMessages);
     }
     public function show($id)
     {

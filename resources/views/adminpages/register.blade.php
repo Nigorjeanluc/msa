@@ -64,10 +64,10 @@
 
                     
                     <div class="form-group">
-                        {{ Form::label('job_title', 'Job Title') }}
+                        {{ Form::label('job_title', 'Role title') }}
                         <select class="form-control" name="job_title">
                             <option value="admin">Administator</option>
-                            <option value="author">Author</option>
+                            <option value="other">Other</option>
                         </select>
                     </div>
 

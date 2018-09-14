@@ -37,7 +37,7 @@
                 <li><a href="{{ route('admin.admins') }}"><i class="fa fa-circle-o"></i> All admins</a></li>
               </ul>
             </li>
-            <li class="treeview">
+            {{-- <li class="treeview">
               <a href="#">
                 <i class="fa fa-book"></i>
                 <span>Hiring</span>
@@ -49,16 +49,21 @@
                 <li><a href="{{ route('books.create') }}"><i class="fa fa-circle-o"></i> Add a job offer</a></li>
                 <li><a href="{{ route('books.index') }}"><i class="fa fa-circle-o"></i> All job offers</a></li>
               </ul>
-            </li>
+            </li> --}}
             <li class="treeview">
-                <a href="{{ route('admin.messages') }}">
-                  <i class="fa fa-envelope"></i> <span>Applications</span>
-                  <span class="pull-right-container">
-                    <small class="label pull-right bg-orange">{{ count($userNum) }}</small>
-                  </span>
-                </a>
+              <a href="#">
+                <i class="fa fa-bullhorn"></i> <span>Publications</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="{{ route('publications.create') }}"><i class="fa fa-circle-o"></i> Publish something</a></li>
+                <li><a href="{{ route('publications.index') }}">
+                  <i class="fa fa-circle-o"></i> All publications</a></li>
+              </ul>
             </li>
-            <li class="treeview">
+            {{-- <li class="treeview">
               <a href="#">
                 <i class="fa fa-pencil-square"></i>
                 <span>News</span>
@@ -70,12 +75,12 @@
                 <li><a href="{{ route('shorts.create') }}"><i class="fa fa-circle-o"></i> Add news article</a></li>
                 <li><a href="{{ route('shorts.index') }}"><i class="fa fa-circle-o"></i> All news article</a></li>
               </ul>
-            </li>
+            </li> --}}
             <li class="treeview">
                 <a href="{{ route('admin.messages') }}">
                   <i class="fa fa-envelope"></i> <span>Messages</span>
                   <span class="pull-right-container">
-                    <small class="label pull-right bg-green">{{ count($userNum) }}</small>
+                    <small class="label pull-right bg-green">{{ count($messages) }}</small>
                   </span>
                 </a>
             </li>

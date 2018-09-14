@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Admin;
 use App\Message;
+use App\Publication;
 use Mail;
 use DB;
 use Purifier;
@@ -120,6 +121,12 @@ class MainPageController extends Controller
 
     public function getLegal_notice(){
         return view('pages.legal_notice');
+    }
+
+    public function getPublication()
+    {
+        $pubs = Publication::orderBy('created_at', 'desc')->limit(5)->get();
+        return view('pages.publication')->withPosts($pubs);
     }
 
     public function getContact()
