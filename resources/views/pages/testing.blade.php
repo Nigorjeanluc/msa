@@ -53,26 +53,56 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Testing & Analysis</h4>
+                        <h4 class="font-bold">Sampling, Weighting & Analysis</h4>
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>
                             <h6 class="font-pt mb-0">
-                                Minerals are sampled , weighed, sent to 
-                                our modern lab and analyzed to determine 
-                                grade for payment on the same day.
+                                •	Minerals sampled and sent to our lab and are analyzed to determine grade
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Minerals are weighted
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Negotiant Tags are assigned to purchased minerals
                             </h6>
                         </blockquote>
                         <div class="row imgs">
-                            <div class="col-md-6"><img class="imgss" src="{{ asset('img/bg-img/msa10.jpg') }}"></div>
-                            <div class="col-md-6"><img class="imgss" src="{{ asset('img/bg-img/msa8.jpg') }}"></div>
+                            <div class="col-md-6">
+                                <center>
+                                    <img class="imgss" src="{{ asset('img/bg-img/msa5.jpg') }}">
+                                    <p style="color:rgba(0,0,0,0.8)"><b>Sample crusher</b></p>
+                                </center>
+                                {{-- <img class="imgss" src="{{ asset('img/bg-img/msa5.jpg') }}"> --}}
+                            </div>
+                            <div class="col-md-6">
+                                <center>
+                                    <img class="imgss" src="{{ asset('img/bg-img/msa8.jpg') }}">
+                                    <p style="color:rgba(0,0,0,0.8)"><b>Laboratory analyzer  machine</b></p>
+                                </center>
+                                {{-- <img class="imgss" src="{{ asset('img/bg-img/msa8.jpg') }}"> --}}
+                            </div>
                         </div>
+                    </div>
+                    <div class="gazette-heading">
+                        <h4 class="font-bold">Technical support and vast knowledge to add value to Minerals business…</h4>
+                    </div>
+                   <div class="single-post-blockquote">
                         <blockquote>
                             <h6 class="font-pt mb-0">
-                                The Lab Test also gives the breakdown of the various elements in the sample and the Bq Radiation (The Becquerel (symbol Bq) is the SI derived unit of radioactivity. One Becquerel is defined as the activity of a quantity of radioactive material in which one nucleus decays per second. This is to ensure that no harmful radiation is present in the material.
+                                •	Consultants from Cronimet and MSA Experts
                             </h6>
                         </blockquote>
-                    </div>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Geological expertise in order to improve extraction processes
+                            </h6>
+                        </blockquote>
+                   </div>
                 </div>
             </div>
 @endsection

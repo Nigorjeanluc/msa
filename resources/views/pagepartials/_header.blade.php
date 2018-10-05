@@ -3,7 +3,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Breaking News Area -->
-                    <div class="col-12 col-md-8 col-sm-8 col-xs-8">
+                    <div class="col-12 col-md-10 col-sm-10 col-xs-10">
                         <div class="breaking-news-area">
                             <!--<h5 class="breaking-news-title">Breaking news</h5>-->
                             <!--<div id="breakingNewsTicker" class="ticker">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <!-- Stock News Area -->
-                    <div class="col-12 col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-12 col-md-2 col-sm-2 col-xs-2">
                         <div class="stock-news-area">
                             <div class="ticker">
                                 <ul>
@@ -38,7 +38,7 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="{{ route('GTC') }}">
+                                        {{-- <a href="{{ route('GTC') }}">
                                             <div style="margin-right:10px" class="single-stock-report">
                                                 <div class="stock-index">
                                                     <h4 style="font-size:0.9em">GTC</h4>
@@ -51,7 +51,7 @@
                                                     <h4 style="font-size:0.9em">Legal notice</h4>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </a> --}}
                                     </li>
                                 </ul>
                             </div>
@@ -115,30 +115,24 @@
                                                 <a class="dropdown-item {{ Request::is('shipping') ? "active" : "" }}" href="{{ route('shipping') }}">Shipping</a>
                                             </div>
                                         </li>
-                                        <li class="nav-item {{ Request::is('quality')||Request::is('safety')||Request::is('env_sustainability')||Request::is('ITRI') ? "active" : ""}} dropdown">
+                                        <li class="nav-item {{ Request::is('ITRI')||Request::is('corporate_gov') ? "active" : ""}} dropdown">
                                             <a class="nav-link dropdown-toggle pipDrop2" href="{{ route('sustainability') }}" id="navbarDropdownxx" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Policies</a>
                                             <div class="dropdown-menu pipDrop2" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item {{ Request::is('quality') ? "active" : "" }}" href="{{ route('quality') }}">Quality</a>
-                                                <a class="dropdown-item {{ Request::is('safety') ? "active" : "" }}" href="{{ route('safety') }}">Safety</a>
-                                                <a class="dropdown-item {{ Request::is('env_sustainability') ? "active" : "" }}" href="{{ route('env_sustainability') }}">Environmental Sustainability</a>
+                                                <a class="dropdown-item {{ Request::is('corporate_gov') ? "active" : "" }}" href="{{ route('corporate_gov') }}">Corporate Governance (Principles)</a>
                                                 <a class="dropdown-item {{ Request::is('ITRI') ? "active" : "" }}" href="{{ route('ITRI') }}">ITRI</a>
                                             </div>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link {{ Request::is('publications') ? "active" : "" }}" href="{{ route('publications') }}">Publications</a>
                                         </li>
-                                        <li class="nav-item {{ Request::is('vision_mission')||Request::is('corporate_gov')||Request::is('management')||Request::is('team') ? "active" : ""}} dropdown">
+                                        <li class="nav-item {{ Request::is('vision_mission')||Request::is('management')||Request::is('team') ? "active" : ""}} dropdown">
                                             <a class="nav-link dropdown-toggle pipDrop3" href="#" id="navbarDropdownxxx" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us</a>
                                             <div class="dropdown-menu pipDrop3" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item {{ Request::is('corporate_gov') ? "active" : "" }}" href="{{ route('corporate_gov') }}">Corporate Governance (Principles)</a>
                                                 <a class="dropdown-item {{ Request::is('vision_mission') ? "active" : "" }}" href="{{ route('vision_mission') }}">Vision & Mission</a>
-                                                <a class="dropdown-item {{ Request::is('management') ? "active" : "" }}" href="{{ route('management') }}">Management</a>
+                                                {{-- <a class="dropdown-item {{ Request::is('management') ? "active" : "" }}" href="{{ route('management') }}">Management</a> --}}
                                                 <a class="dropdown-item {{ Request::is('team') ? "active" : "" }}" href="{{ route('team') }}">Our team</a>
-                                                <a class="dropdown-item {{ Request::is('contact_us') ? "active" : "" }}" href="{{ route('contact') }}">Contact</a>
+                                                <a class="dropdown-item {{ Request::is('contact_us') ? "active" : "" }}" href="{{ route('contact') }}">Contact Us</a>
                                             </div>
-                                        </li>
-                                        <li class="nav-item {{ Request::is('contact_us') ? "active" : ""}} dropdown">
-                                            <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>

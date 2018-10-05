@@ -30,18 +30,18 @@
                     <div>
                         <h4 class="font-bold">About Us</h4>
                     </div>
-                    <!-- Single Catagory Post -->
+                    {{-- <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('corporate_gov') }}">Corporate Governance</a>
-                    </div>
+                    </div> --}}
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('vision_mission') }}">Vision & Mission</a>
                     </div>
-                    <!-- Single Catagory Post -->
+                    {{-- <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('management') }}">Management</a>
-                    </div>
+                    </div> --}}
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button active" href="{{ route('team') }}">Our team</a>
@@ -68,11 +68,12 @@
                                     Africa AG (CCA). It deals in 
                                     Procurement, Processing & Exporting
                                     of Coltan, Cassiterite and Wolfram minerals.
-                                    Established in 2008, the Company’s goal 
-                                    is to increase mineral production, so it 
-                                    partners and supports individual miners, 
-                                    cooperatives and companies involved in the 
-                                    sector to make this a reality
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                Established in 2008, The Company trade with local miners, mining cooperatives and mining companies as well as financially support miners in order to increase the mining production of Rwanda.
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                Following the Dodd Frank Act US legislation on conflict minerals, MSA Ltd has played a major role in the initiation and implementation of the iTSCi traceability scheme together with the Rwandan Government.
                             </h6>
                         </blockquote>
                     </div>

@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div>
-                        <h4 class="font-bold">About Us</h4>
+                        <h4 class="font-bold">Policies</h4>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
@@ -36,52 +36,131 @@
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('vision_mission') }}">Vision & Mission</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('management') }}">Management</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('team') }}">Our team</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('contact') }}">Contact Us</a>
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('ITRI') }}">ITRI</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">OUR FIVE GOLDEN RULES OF BEST CORPORATE GOVERNANCE PRACTICE ARE:</h4>
-                    </div>
-                    <div class="single-post-blockquote">
-                        <ul class="list-group">
-                            <li class="list-group-item list-group-item-success"><b>Ethics:</b> a clearly ethical basis to the business</li>
-                            <li class="list-group-item list-group-item-success"><b>Align Business Goals:</b> appropriate goals, arrived at through the creation of a suitable stakeholder decision making model</li>
-                            <li class="list-group-item list-group-item-success"><b>Strategic management:</b> an effective strategy process which incorporates stakeholder value</li>
-                            <li class="list-group-item list-group-item-success"><b>Organization:</b> an organization suitably structured to effect good corporate governance</li>
-                            <li class="list-group-item list-group-item-success"><b>Reporting:</b> reporting systems structured to provide transparency and accountability</li>
-                        </ul>
-                    </div>
-                    <div class="gazette-heading corp">
-                        <h4 class="font-bold">ETHICAL PRINCIPLES</h4>
+                        <h4 class="font-bold">WE TREAT OTHERS THE WAY WE WANT TO BE TREATED OURSELVES</h4>
                     </div>
                     <div class="single-post-blockquote">
                         <blockquote>
                             <h6 class="font-pt mb-0">
-                                    Minerals Supply Africa (MSA) 
-                                    is a Rwanda-based company 
-                                    owned by CRONIMET Central 
-                                    Africa AG (CCA). It deals in 
-                                    Procurement, Processing & Exporting
-                                    of Coltan, Cassiterite and Wolfram minerals.
-                                    Established in 2008, the Company’s goal 
-                                    is to increase mineral production, so it 
-                                    partners and supports individual miners, 
-                                    cooperatives and companies involved in the 
-                                    sector to make this a reality
+                                We understand this to mean, more particularly:
                             </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Friendliness & helpfulness
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Open Communication
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Reliability
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Trustful & respectful relationships 
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <center>
+                                <h6 class="font-pt mb-0">
+                                    “We do not tolerate any discrimination”
+                                </h6>
+                            </center>
+                        </blockquote>
+                    </div>
+                    <div class="gazette-heading corp">
+                        <h4 class="font-bold">Safety/ Environment</h4>
+                    </div>
+                    <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                We are aware of our social & ecological responsibility for the community
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Conservation of natural resources
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Preservation of the basis of life for future generation
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Support of ecological, social and culture
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Awareness of our responsibility beyond legal regulations
+                            </h6>
+                        </blockquote>
+                    </div>
+                    <div class="gazette-heading corp">
+                        <h4 class="font-bold">WE THINK & ACT ENTRENEURIALLY</h4>
+                    </div>
+                    <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                We understand this to mean more particularly:
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Open to new ideas & Flexibility in their executions
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Readiness to take reasonable risks
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Quick & Flexible responses to market situations
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Determination to perform & readiness to be measured against goals
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <center>
+                                <h6 class="font-pt mb-0">
+                                    “We are amongst the best in our field of activity “
+                                </h6>
+                            </center>
+                        </blockquote>
+                    </div>
+                    <div class="gazette-heading corp">
+                        <h4 class="font-bold">WE ARE THE MOST IMPORTANT CONTACT FOR OUR BUSINESS PARTNERS</h4>
+                    </div>
+                    <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                We understand this to mean more particularly:
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                •	Development of joint solutions
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Quick responses to requests of our business partners
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Fulfillment of the highest quality standards
+                            </h6>
+                            <h6 class="font-pt mb-0">
+                                •	Fairness in our interactions with each other
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <center>
+                                <h6 class="font-pt mb-0">
+                                    “We expect the same from our business partners.”
+                                </h6>
+                            </center>
                         </blockquote>
                     </div>
                 </div>

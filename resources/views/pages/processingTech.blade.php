@@ -53,16 +53,32 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
-                        <h4 class="font-bold">Crushing</h4>
+                        <h4 class="font-bold">Reception of minerals</h4>
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>
                             <h6 class="font-pt mb-0">
-                                    The material is crushed in our Crushing Machines till it is a powder. We also use Magnetic Separators to separate materials which are mixed and to separate them into Iron, Tin or Tantalum. The iron is discarded but the Tin and Tantalum are stored. All materials are weighed at different stages of the process.
+                                    •	Quick processing of minerals (crushing, separation) at our yard
+                            </h6>
+                        </blockquote>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                    •	Analysis of samples in a modern laboratory.
                             </h6>
                         </blockquote>
                         <div class="row imgs">
-                            <div class="col-md-12"><center><img src="{{ asset('img/bg-img/msa7.jpg') }}"></center></div>
+                            <div class="col-md-6">
+                                <center>
+                                    <img src="{{ asset('img/bg-img/msa7.jpg') }}">
+                                    <p style="color:rgba(0,0,0,0.8)"><b>Ruler crusher</b></p>
+                                </center>
+                            </div>
+                            <div class="col-md-6">
+                                <center>
+                                    <img src="{{ asset('img/bg-img/msa1.jpg') }}">
+                                    <p style="color:rgba(0,0,0,0.8)"><b>Electrical separator</b></p>
+                                </center>
+                            </div>
                         </div>
                     </div>
                 </div>

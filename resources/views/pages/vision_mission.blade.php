@@ -30,18 +30,18 @@
                     <div>
                         <h4 class="font-bold">About Us</h4>
                     </div>
-                    <!-- Single Catagory Post -->
+                    {{-- <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('corporate_gov') }}">Corporate Governance</a>
-                    </div>
+                    </div> --}}
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button active" href="{{ route('vision_mission') }}">Vision & Mission</a>
                     </div>
-                    <!-- Single Catagory Post -->
+                    {{-- <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('management') }}">Management</a>
-                    </div>
+                    </div> --}}
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('team') }}">Our team</a>
