@@ -26,7 +26,23 @@
 
 @section('content')
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-9">
+                    <div class="gazette-heading">
+                        <h4 class="font-bold">Packing</h4>
+                    </div>
+                   <div class="single-post-blockquote">
+                        <div class="row imgs">
+                            <div class="col-md-6"><img style="height:200px;wigth:100%" src="{{ asset('img/bg-img/msa4.jpg') }}"></div>
+                            <div class="col-md-6"><img style="height:200px;wigth:100%" src="{{ asset('img/bg-img/msa2.jpg') }}"></div>
+                        </div>
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                Before Packing in Steel Drums for Export, all drums must be issued with a Tag conforming to the iTSCi Programme. Resources Authority/Geology and Mines Department (GMD) have an office at our facility and they are the government body responsible for checking the incoming mineral Tags and also for issuing the final export tag for the processed minerals.
+                            </h6>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
                     <div>
                         <h4 class="font-bold">Services</h4>
                     </div>
@@ -49,22 +65,6 @@
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('shipping') }}">Shipping</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8">
-                    <div class="gazette-heading">
-                        <h4 class="font-bold">Packing</h4>
-                    </div>
-                   <div class="single-post-blockquote">
-                        <div class="row imgs">
-                            <div class="col-md-6"><img src="{{ asset('img/bg-img/msa4.jpg') }}"></div>
-                            <div class="col-md-6"><img src="{{ asset('img/bg-img/msa2.jpg') }}"></div>
-                        </div>
-                        <blockquote>
-                            <h6 class="font-pt mb-0">
-                                Before Packing in Steel Drums for Export, all drums must be issued with a Tag conforming to the iTSCi Programme. Resources Authority/Geology and Mines Department (GMD) have an office at our facility and they are the government body responsible for checking the incoming mineral Tags and also for issuing the final export tag for the processed minerals.
-                            </h6>
-                        </blockquote>
                     </div>
                 </div>
             </div>

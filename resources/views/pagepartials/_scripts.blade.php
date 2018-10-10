@@ -10,3 +10,8 @@
         <!-- Google Maps js -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk"></script>
         <script src="/js/map-active.js"></script>
+        <script src="/slider/ideal-image-slider.js"></script>
+	<script>
+	var slider = new IdealImageSlider.Slider('#slider');
+	slider.start();
+	</script>

@@ -41,7 +41,7 @@
                 </div> --}}
                 <div class="col-12 col-md-12">
                     <div class="gazette-heading">
-                        <h6 class="font-bold">MSA Ltd Due diligence Risk Management plan to implement OECD guidelines from minerals conflict-affected and high risk areas.</h6>
+                        <h4 class="font-bold">MSA Ltd Due diligence Risk Management plan to implement OECD guidelines from minerals conflict-affected and high risk areas.</h4>
                     </div>
                    <div class="single-post-blockquote">
                         <blockquote>

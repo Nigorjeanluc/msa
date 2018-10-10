@@ -26,21 +26,13 @@
 
 @section('content')
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-3">
                     <div>
                         <h4 class="font-bold">About Us</h4>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('corporate_gov') }}">Corporate Governance</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('vision_mission') }}">Vision & Mission</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('management') }}">Management</a>
                     </div>
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
@@ -51,7 +43,7 @@
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('contact') }}">Contact Us</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-9">
                     <div class="gazette-heading">
                         <h4 class="font-bold">Our location</h4>
                     </div>

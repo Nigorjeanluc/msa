@@ -61,26 +61,25 @@
             </div>
         </div>
         <!-- Middle Header Area -->
-        <div class="middle-header">
+        <div class="middle-header  mh-100">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Logo Area -->
-                    <div class="col-12 col-md-2 col-sm-2 col-xs-2">
+                    <div class="col-2 col-md-2 col-sm-2 col-xs-2 col-xs-2 mh-100">
                         <div class="logo-area">
-                            <a href="{{ route('/') }}"><img style="height:120px" src="img/core-img/logo.jpg" alt="logo"></a>
+                            <a href="{{ route('/') }}"><img style="height:120px;potision:right" src="img/core-img/logo.jpg" alt="logo"></a>
                         </div>
                     </div>
                     <!-- Header Advert Area -->
-                    <div class="col-12 col-md-6 hidden-sm hidden-xs">
+                    <div class="col-6 col-md-6 col-sm-6 col-xs-6 mh-100">
                         <div class="header-advert-area">
-                            <center><h1 id="companyName">Minerals Supply Africa Ltd.</h1></center>
-                            <!--<a href="#"><img src="img/bg-img/top-advert.png" alt="header-add"></a>-->
+                            <h2 id="companyName">Minerals Supply Africa Ltd.</h2>
                         </div>
                     </div>
                     <!-- Logo Area -->
-                    <div class="col-12 col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-4 col-md-4 col-sm-4 col-xs-4 col-xs-4 mh-100">
                         <div class="logo-area">
-                            <a href="http://www.cronimet-mining.com/" target="_blank"><img style="height:120px" src="img/core-img/acron.jpg" alt="logo"></a>
+                            <a href="http://www.cronimet-mining.com/" target="_blank"><img style="height:120px;width:100%" src="img/core-img/acron.jpg" alt="logo"></a>
                         </div>
                     </div>
                 </div>

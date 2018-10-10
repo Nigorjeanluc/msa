@@ -26,7 +26,7 @@
 
 @section('content')
             <div class="row">
-                <div class="col-12 col-md-4">
+                {{-- <div class="col-12 col-md-4">
                     <div>
                         <h4 class="font-bold">Policies</h4>
                     </div>
@@ -38,7 +38,8 @@
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('ITRI') }}">ITRI</a>
                     </div>
-                </div>
+                </div> --}}
+                <div class="col-12 col-md-2"></div>
                 <div class="col-12 col-md-8">
                     <div class="gazette-heading">
                         <h4 class="font-bold">WE TREAT OTHERS THE WAY WE WANT TO BE TREATED OURSELVES</h4>

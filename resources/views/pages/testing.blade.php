@@ -26,32 +26,7 @@
 
 @section('content')
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <div>
-                        <h4 class="font-bold">Services</h4>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button active" href="{{ route('testing') }}">Testing</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('tagging') }}">Tagging</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('processing_tech') }}">Processing technologies</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('packing') }}">Packing</a>
-                    </div>
-                    <!-- Single Catagory Post -->
-                    <div class="gazette-single-catagory-post">
-                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('shipping') }}">Shipping</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-9">
                     <div class="gazette-heading">
                         <h4 class="font-bold">Sampling, Weighting & Analysis</h4>
                     </div>
@@ -103,6 +78,31 @@
                             </h6>
                         </blockquote>
                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div>
+                        <h4 class="font-bold">Services</h4>
+                    </div>
+                    <!-- Single Catagory Post -->
+                    <div class="gazette-single-catagory-post">
+                        <a class="btn btn-success btn-block btn-sm button active" href="{{ route('testing') }}">Testing</a>
+                    </div>
+                    <!-- Single Catagory Post -->
+                    <div class="gazette-single-catagory-post">
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('tagging') }}">Tagging</a>
+                    </div>
+                    <!-- Single Catagory Post -->
+                    <div class="gazette-single-catagory-post">
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('processing_tech') }}">Processing technologies</a>
+                    </div>
+                    <!-- Single Catagory Post -->
+                    <div class="gazette-single-catagory-post">
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('packing') }}">Packing</a>
+                    </div>
+                    <!-- Single Catagory Post -->
+                    <div class="gazette-single-catagory-post">
+                        <a class="btn btn-success btn-block btn-sm button" href="{{ route('shipping') }}">Shipping</a>
+                    </div>
                 </div>
             </div>
 @endsection

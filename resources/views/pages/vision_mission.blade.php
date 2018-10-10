@@ -26,7 +26,33 @@
 
 @section('content')
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-9">
+                    <div class="gazette-heading">
+                        <h4 class="font-bold">Our vision</h4>
+                    </div>
+                   <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                -	To consolidate our position as the leader in minerals processing and trading in the region<br/>
+                                -	To provide quality minerals that meet the needs of our customers
+                            </h6>
+                        </blockquote>
+                    </div>
+
+                    <div class="gazette-heading corp">
+                        <h4 class="font-bold">Our mission</h4>
+                    </div>
+                   <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                -	To drive the production of minerals in Rwanda and facilitate professional, timely, and transparent minerals supply chains<br/>
+                                -	To build long-term relationships with customers and suppliers based on mutual trust and respect<br/>
+                                -	To offer geological advice for an efficient and environmentally friendly mining sector
+                            </h6>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
                     <div>
                         <h4 class="font-bold">About Us</h4>
                     </div>
@@ -49,32 +75,6 @@
                     <!-- Single Catagory Post -->
                     <div class="gazette-single-catagory-post">
                         <a class="btn btn-success btn-block btn-sm button" href="{{ route('contact') }}">Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8">
-                    <div class="gazette-heading">
-                        <h4 class="font-bold">Our vision</h4>
-                    </div>
-                   <div class="single-post-blockquote">
-                        <blockquote>
-                            <h6 class="font-pt mb-0">
-                                    To become the leader in minerals processing
-                                    and trading industry in the region<br>To provide quality Minerals that exceed the expectation of our esteemed customers
-                            </h6>
-                        </blockquote>
-                    </div>
-
-                    <div class="gazette-heading corp">
-                        <h4 class="font-bold">Our mission</h4>
-                    </div>
-                   <div class="single-post-blockquote">
-                        <blockquote>
-                            <h6 class="font-pt mb-0">
-                                    To understand the need of our customers and match that need with the right production of the Rwandan mining Industry <br>To build a long
-                                    term relationship with customers and suppliers based on mutual trust and respect <br>To offer geological advices for an efficient and environmental friendly mining sector <br>To Advocate and implement the mineral traceability
-                                    for responsible mineral supply chain.
-                            </h6>
-                        </blockquote>
                     </div>
                 </div>
             </div>

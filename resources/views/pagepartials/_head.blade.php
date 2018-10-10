@@ -15,4 +15,14 @@
     <link rel="stylesheet" href="/style.css">
 
     <!-- Responsive CSS -->
-    <link href="/css/responsive.css" rel="stylesheet">
+    <link href="/slider/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="/slider/css/normalize.css">
+	<link rel="stylesheet" href="/slider/ideal-image-slider.css">
+	<link rel="stylesheet" href="/slider/themes/default/default.css">
+	<style media="screen">
+	#slider {
+        max-width: 100%;
+        max-height: 500px;
+		margin: 0px auto;
+	}
+	</style>

@@ -27,7 +27,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="editorial-post-slides owl-carousel">
+                    <div id="slider">
+                        <img src="/img/bg-img/01.jpg" data-src-2x="img/1@2x.jpg" alt="Slide 1" />
+                        <span>IKIBUNO</span>
+                        <img data-src="/img/bg-img/03.jpg" data-src-2x="img/2@2x.jpg" src="" alt="Slide 2" />
+                        <img data-src="/img/bg-img/04.jpg" data-src-2x="img/3@2x.jpg" src="" alt="Slide 3" />
+                    </div>
+                    {{-- <div class="editorial-post-slides owl-carousel">
 
                         <!-- Editorial Post Single Slide -->
                         <div class="editorial-post-single-slide">
@@ -43,8 +49,8 @@
                                         <div class="gazette-post-tag">
                                             <a href="#">Processing</a>
                                         </div>
-                                        {{--  <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
-                                        <p class="editorial-post-date mb-15">March 29, 2016</p>  --}}
+                                        <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
+                                        <p class="editorial-post-date mb-15">March 29, 2016</p>
                                         <p style="text-align:justify">Minerals Supply Africa (MSA) is a Rwanda-based company owned by CRONIMET Central Africa AG (CCA). It deals in Procurement, Processing & Exporting of Coltan, Cassiterite and Wolfram minerals.
                                         Established in 2008, The Company trade with local miners, mining cooperatives and mining companies as well as financially support miners in order to increase the mining production of Rwanda.
                                         </p>
@@ -67,8 +73,8 @@
                                         <div class="gazette-post-tag">
                                             <a href="#">Procurement</a>
                                         </div>
-                                        {{--  <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
-                                        <p class="editorial-post-date mb-15">March 29, 2016</p>  --}}
+                                        <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
+                                        <p class="editorial-post-date mb-15">March 29, 2016</p>
                                         <p style="text-align:justify">
                                             Minerals Supply Africa (MSA) 
                                             is a Rwanda-based company 
@@ -101,8 +107,8 @@
                                         <div class="gazette-post-tag">
                                             <a href="#">Exporting</a>
                                         </div>
-                                        {{--  <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
-                                        <p class="editorial-post-date mb-15">March 29, 2016</p>  --}}
+                                        <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
+                                        <p class="editorial-post-date mb-15">March 29, 2016</p>
                                         
                                         <p style="text-align:justify">
                                             Minerals Supply Africa (MSA) 
@@ -123,7 +129,7 @@
                         </div>
 
                         <!-- Editorial Post Single Slide -->
-                        {{--  <div class="editorial-post-single-slide">
+                        <div class="editorial-post-single-slide">
                             <div class="row">
                                 <div class="col-12 col-md-5">
                                     <div class="editorial-post-thumb">
@@ -142,8 +148,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>  --}}
-                    </div>
+                        </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
