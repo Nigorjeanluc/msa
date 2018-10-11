@@ -49,11 +49,13 @@
                                         <div class="gazette-post-tag">
                                             <a href="#">Processing</a>
                                         </div>
-                                        <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
-                                        <p class="editorial-post-date mb-15">March 29, 2016</p>
-                                        <p style="text-align:justify">Minerals Supply Africa (MSA) is a Rwanda-based company owned by CRONIMET Central Africa AG (CCA). It deals in Procurement, Processing & Exporting of Coltan, Cassiterite and Wolfram minerals.
-                                        Established in 2008, The Company trade with local miners, mining cooperatives and mining companies as well as financially support miners in order to increase the mining production of Rwanda.
-                                        </p>
+                                        <br/>
+                                        <h5>
+                                            <a style="color:white" href="#" class="font-pt mb-15">
+                                                Minerals Supply Africa (MSA) is a Rwanda-based company owned by CRONIMET Central Africa AG (CCA). It deals in Procurement, Processing & Exporting of Coltan, Cassiterite and Wolfram minerals.
+                                                Established in 2008, The Company trade with local miners, mining cooperatives and mining companies as well as financially support miners in order to increase the mining production of Rwanda.
+                                            </a>
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
@@ -73,21 +75,13 @@
                                         <div class="gazette-post-tag">
                                             <a href="#">Procurement</a>
                                         </div>
-                                        <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
-                                        <p class="editorial-post-date mb-15">March 29, 2016</p>
-                                        <p style="text-align:justify">
-                                            Minerals Supply Africa (MSA) 
-                                            is a Rwanda-based company 
-                                            owned by CRONIMET Central 
-                                            Africa AG (CCA). It deals in 
-                                            Procurement, Processing & Exporting
-                                            of Coltan, Cassiterite and Wolfram minerals.
-                                            Established in 2008, the Company’s goal 
-                                            is to increase mineral production, so it 
-                                            partners and supports individual miners, 
-                                            cooperatives and companies involved in the 
-                                            sector to make this a reality
-                                        </p>
+                                        <br/>
+                                        <h5>
+                                            <a style="color:white" href="#" class="font-pt mb-15">
+                                                Minerals Supply Africa (MSA) is a Rwanda-based company owned by CRONIMET Central Africa AG (CCA). It deals in Procurement, Processing & Exporting of Coltan, Cassiterite and Wolfram minerals.
+                                                Established in 2008, The Company trade with local miners, mining cooperatives and mining companies as well as financially support miners in order to increase the mining production of Rwanda.
+                                            </a>
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
@@ -107,22 +101,13 @@
                                         <div class="gazette-post-tag">
                                             <a href="#">Exporting</a>
                                         </div>
-                                        <h2><a href="#" class="font-pt mb-15">Move over, bitcoin. <br>Here comes litecoin</a></h2>
-                                        <p class="editorial-post-date mb-15">March 29, 2016</p>
-                                        
-                                        <p style="text-align:justify">
-                                            Minerals Supply Africa (MSA) 
-                                            is a Rwanda-based company 
-                                            owned by CRONIMET Central 
-                                            Africa AG (CCA). It deals in 
-                                            Procurement, Processing & Exporting
-                                            of Coltan, Cassiterite and Wolfram minerals.
-                                            Established in 2008, the Company’s goal 
-                                            is to increase mineral production, so it 
-                                            partners and supports individual miners, 
-                                            cooperatives and companies involved in the 
-                                            sector to make this a reality
-                                        </p>
+                                        <br/>
+                                        <h5>
+                                            <a style="color:white" href="#" class="font-pt mb-15">
+                                                Minerals Supply Africa (MSA) is a Rwanda-based company owned by CRONIMET Central Africa AG (CCA). It deals in Procurement, Processing & Exporting of Coltan, Cassiterite and Wolfram minerals.
+                                                Established in 2008, The Company trade with local miners, mining cooperatives and mining companies as well as financially support miners in order to increase the mining production of Rwanda.
+                                            </a>
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
