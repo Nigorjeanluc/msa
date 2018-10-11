@@ -49,8 +49,8 @@
                         <div class="row imgs">
                             <div class="col-md-6">
                                 <center>
-                                    <img class="imgss" src="{{ asset('img/bg-img/msa5.jpg') }}">
-                                    <p style="color:rgba(0,0,0,0.8)"><b>Sample crusher</b></p>
+                                    <img class="imgss" src="{{ asset('img/bg-img/msa10.jpg') }}">
+                                    <p style="color:rgba(0,0,0,0.8)"><b>Laboratory analyzers</b></p>
                                 </center>
                                 {{-- <img class="imgss" src="{{ asset('img/bg-img/msa5.jpg') }}"> --}}
                             </div>
