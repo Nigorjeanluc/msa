@@ -27,13 +27,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div id="slider">
+                    {{--  <div id="slider">
                         <img src="/img/bg-img/01.jpg" data-src-2x="img/1@2x.jpg" alt="Slide 1" />
                         <span>IKIBUNO</span>
                         <img data-src="/img/bg-img/03.jpg" data-src-2x="img/2@2x.jpg" src="" alt="Slide 2" />
                         <img data-src="/img/bg-img/04.jpg" data-src-2x="img/3@2x.jpg" src="" alt="Slide 3" />
-                    </div>
-                    {{-- <div class="editorial-post-slides owl-carousel">
+                    </div>  --}}
+                    <div class="editorial-post-slides owl-carousel">
 
                         <!-- Editorial Post Single Slide -->
                         <div class="editorial-post-single-slide">
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>--}}
+                    </div>
                 </div>
             </div>
         </div>
