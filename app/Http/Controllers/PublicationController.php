@@ -56,21 +56,20 @@ class PublicationController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, array(
-            'title'          => 'required|max:255',
-            'role'           => 'required|max:100',
-            'description'           => 'required',
-            'pdf'  => 'required|mimes:doc,pdf,docx,zip',
-            'featured_img'  => 'required|image'
+            'title' => 'required|max:255',
+            'role' => 'required|max:100',
+            'description' => 'required',
+            'pdf' => 'required|mimes:doc,pdf,docx,zip'
         ));
         // store in the database
         $publication = new Publication;
 
         $publication->title = $request->title;
-        $publication->role= $request->role;
-        $publication->pdf= $request->pdf;
+        $publication->role = $request->role;
+        $publication->pdf = $request->pdf;
         $publication->description = Purifier::clean($request->description);
 
-        if($request->hasFile('pdf')) {
+        if ($request->hasFile('pdf')) {
             $doc = $request->file('pdf');
             $filename = $doc->getClientOriginalName();
             $location = public_path('ibitabo/');
@@ -84,25 +83,25 @@ class PublicationController extends Controller
             $publication->pdf = $filename;
         }
 
-        if($request->hasFile('featured_img')) {
-            $image = $request->file('featured_img');
-            $filename = time() . '.' . $image->getClientOriginalExtension();
-            $location = public_path('img/' . $filename);
-            //or $filename = time() . '.' . $image->encode('png');
-            //$location = public_path('images/news/');
-            //or $location = storage_path('/app/posts/');
-            //$image->move($location, $filename);
-            Image::make($image)->resize(300, 165)->save($location);
+        // if($request->hasFile('featured_img')) {
+        //     $image = $request->file('featured_img');
+        //     $filename = time() . '.' . $image->getClientOriginalExtension();
+        //     $location = public_path('img/' . $filename);
+        //     //or $filename = time() . '.' . $image->encode('png');
+        //     //$location = public_path('images/news/');
+        //     //or $location = storage_path('/app/posts/');
+        //     //$image->move($location, $filename);
+        //     Image::make($image)->resize(300, 165)->save($location);
 
-            $publication->img = $filename;
-        }
+        //     $publication->img = $filename;
+        // }
 
         $publication->save();
-        
+
         $request->session()->flash('success', 'The book post was successfully uploaded!');
         
         // redirect to another page
-        
+
         return redirect()->route('publications.show', $publication->id);
     }
 
@@ -112,7 +111,8 @@ class PublicationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id){
+    public function show($id)
+    {
         $AllUsers = User::all();
         $AllMessages = Message::where('readed', '=', 0)->orderBy('id', 'desc')->get();
         $publication = Publication::find($id);
@@ -146,19 +146,18 @@ class PublicationController extends Controller
     {
         $publication = Publication::find($id);
         $this->validate($request, array(
-            'title'          => 'required|max:255',
-            'role'           => 'required|max:100',
-            'description'           => 'required',
-            'pdf'  => 'required|mimes:doc,pdf,docx,zip',
-            'featured_img'  => 'required|image'
+            'title' => 'required|max:255',
+            'role' => 'required|max:100',
+            'description' => 'required',
+            'pdf' => 'required|mimes:doc,pdf,docx,zip'
         ));
 
         $publication->title = $request->title;
-        $publication->role= $request->role;
-        $publication->pdf= $request->pdf;
+        $publication->role = $request->role;
+        $publication->pdf = $request->pdf;
         $publication->description = Purifier::clean($request->description);
 
-        if($request->hasFile('pdf')) {
+        if ($request->hasFile('pdf')) {
             $doc = $request->file('pdf');
             $filename = $doc->getClientOriginalName();
             $location = public_path('ibitabo/');
@@ -173,19 +172,19 @@ class PublicationController extends Controller
             Storage::delete($oldFilename);
         }
 
-        if($request->hasFile('featured_img')) {
-            $image = $request->file('featured_img');
-            $filename = time() . '.' . $image->getClientOriginalExtension();
-            $location = public_path('img/' . $filename);
-            //or $filename = time() . '.' . $image->encode('png');
-            //$location = public_path('images/news/');
-            //or $location = storage_path('/app/posts/');
-            //$image->move($location, $filename);
-            Image::make($image)->resize(300, 165)->save($location);
-            $oldFilename = $publication->img;
-            $publication->img = $filename;
-            Storage::delete($oldFilename);
-        }
+        // if ($request->hasFile('featured_img')) {
+        //     $image = $request->file('featured_img');
+        //     $filename = time() . '.' . $image->getClientOriginalExtension();
+        //     $location = public_path('img/' . $filename);
+        //     //or $filename = time() . '.' . $image->encode('png');
+        //     //$location = public_path('images/news/');
+        //     //or $location = storage_path('/app/posts/');
+        //     //$image->move($location, $filename);
+        //     Image::make($image)->resize(300, 165)->save($location);
+        //     $oldFilename = $publication->img;
+        //     $publication->img = $filename;
+        //     Storage::delete($oldFilename);
+        // }
 
         $publication->save();
        
@@ -206,14 +205,14 @@ class PublicationController extends Controller
     public function destroy($id)
     {
         $publication = Publication::find($id);
-        Storage::delete($publication->img);
+        // Storage::delete($publication->img);
         Storage::delete($publication->pdf);
 
         $publication->delete();
 
-        
+
         Session::flash('success', 'The post was successfully deleted.');
-        
+
 
         return redirect()->route('publications.index');
     }

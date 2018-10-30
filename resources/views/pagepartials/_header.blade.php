@@ -98,11 +98,6 @@
                                     <ul class="navbar-nav mr-auto">
                                         <li class="nav-item {{ Request::is('/')||Request::is('prospection')||Request::is('operations')||Request::is('processing') ? "active" : ""}} dropdown">
                                             <a class="nav-link" href="{{ route('/') }}">Home</a>
-                                            {{--  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item {{ Request::is('prospection') ? "active" : "" }}" href="{{ route('prospection') }}">Prospection and Sourcing</a>
-                                                <a class="dropdown-item {{ Request::is('development') ? "active" : "" }}" href="{{ route('dev') }}">Development</a>
-                                                <a class="dropdown-item {{ Request::is('operations') ? "active" : "" }}" href="{{ route('operations') }}">Operations</a>
-                                            </div>  --}}
                                         </li>
                                         <li class="nav-item {{ Request::is('testing')||Request::is('tagging')||Request::is('processing_tech')||Request::is('packing')||Request::is('shipping') ? "active" : ""}} dropdown">
                                             <a class="nav-link dropdown-toggle pipDrop1" href="#" id="navbarDropdownx" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -114,13 +109,18 @@
                                                 <a class="dropdown-item {{ Request::is('shipping') ? "active" : "" }}" href="{{ route('shipping') }}">Shipping</a>
                                             </div>
                                         </li>
-                                        <li class="nav-item {{ Request::is('ITRI')||Request::is('corporate_gov') ? "active" : ""}} dropdown">
+                                        <li class="nav-item {{ Request::is('ITRI')||Request::is('corporate_gov')||Request::is('ethical_fundamentals')||Request::is('traceability') ? "active" : ""}} dropdown">
                                             <a class="nav-link dropdown-toggle pipDrop2" href="{{ route('sustainability') }}" id="navbarDropdownxx" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Policies</a>
                                             <div class="dropdown-menu pipDrop2" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item {{ Request::is('traceability') ? "active" : "" }}" href="{{ route('traceability') }}">Traceability</a>
                                                 <a class="dropdown-item {{ Request::is('corporate_gov') ? "active" : "" }}" href="{{ route('corporate_gov') }}">Corporate Governance (Principles)</a>
                                                 <a class="dropdown-item {{ Request::is('ITRI') ? "active" : "" }}" href="{{ route('ITRI') }}">ITRI</a>
+                                                <a class="dropdown-item {{ Request::is('ethical_fundamentals') ? "active" : "" }}" href="{{ route('ethical') }}">Ethical Fundamental</a>
                                             </div>
                                         </li>
+                                        {{--  <li class="nav-item {{ Request::is('/') ? "active" : ""}} dropdown">
+                                            <a class="nav-link" href="{{ route('/') }}">News</a>
+                                        </li>  --}}
                                         <li class="nav-item dropdown">
                                             <a class="nav-link {{ Request::is('publications') ? "active" : "" }}" href="{{ route('publications') }}">Publications</a>
                                         </li>

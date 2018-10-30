@@ -81,10 +81,10 @@
                     </div>
                     
                     <div class="row">
-                        <div class="form-group col-md-6">
+                        {{--  <div class="form-group col-md-6">
                             {{ Form::label('featured_img', "Upload the cover Image:") }}
                             {{ Form::file('featured_img', null,['class' => 'form-control', 'required' => '']) }}
-                        </div>
+                        </div>  --}}
       
                         <div class="form-group col-md-6">
                           {{ Form::label('pdf', "Upload a PDF file:") }}

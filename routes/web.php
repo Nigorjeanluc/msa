@@ -9,7 +9,7 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/', ['uses' => 'MainPageController@getMining', 'as' => '/']);
 Route::get('/prospection', ['uses' => 'MainPageController@getProspection', 'as' => 'prospection']);
@@ -22,8 +22,8 @@ Route::get('/processing_tech', ['uses' => 'MainPageController@getProcessingTech'
 Route::get('/packing', ['uses' => 'MainPageController@getPacking', 'as' => 'packing']);
 Route::get('/shipping', ['uses' => 'MainPageController@getShipping', 'as' => 'shipping']);
 Route::get('/trading', ['uses' => 'MainPageController@getTrading', 'as' => 'trading']);
-Route::get('/product_port', ['uses' => 'MainPageController@getProduct_port', 'as' => 'product_port']);
-Route::get('/services', ['uses' => 'MainPageController@getServices', 'as' => 'services']);
+Route::get('/traceability', ['uses' => 'MainPageController@getTraceability', 'as' => 'traceability']);
+Route::get('/ethical_fundamentals', ['uses' => 'MainPageController@getEthical', 'as' => 'ethical']);
 Route::get('/sustainability', ['uses' => 'MainPageController@getSustainability', 'as' => 'sustainability']);
 Route::get('/quality', ['uses' => 'MainPageController@getQuality', 'as' => 'quality']);
 Route::get('/safety', ['uses' => 'MainPageController@getSafety', 'as' => 'safety']);
@@ -47,7 +47,7 @@ Route::post('/contact_us', ['uses' => 'MainPageController@postContact', 'as' => 
 
 Auth::routes();
 
-Route::prefix('admin')->group(function() {
+Route::prefix('admin')->group(function () {
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
     Route::get('/dashboard', 'AdminController@index')->name('admin.dashboard');
@@ -59,15 +59,15 @@ Route::prefix('admin')->group(function() {
     Route::delete('/admins/{post}', 'AdminController@destroy')->name('admin.admins.destroy');
     Route::get('/admins/{post}/edit', 'AdminController@edit')->name('admin.admins.edit');
 
-    Route::prefix('users')->group(function(){
+    Route::prefix('users')->group(function () {
         Route::get('/', 'UserController@getUsers')->name('admin.users');
         Route::get('/{post}', 'UserController@show')->name('admin.users.show');
     });
 
-    
+
     Route::resource('publications', 'PublicationController');
 
-    Route::prefix('messages')->group(function(){
+    Route::prefix('messages')->group(function () {
         Route::get('/', 'MessageController@getMessages')->name('admin.messages');
         Route::get('/{post}', 'MessageController@show')->name('admin.messages.show');
     });
@@ -79,4 +79,4 @@ Route::get('/ibitabo/{$pdf}', 'DownloadController@download')->name('download');
 Route::get('/admin/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
 Route::post('/admin/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
 Route::get('/admin', 'AdminController@index')->name('admin.dashboard');
-*/
+ */

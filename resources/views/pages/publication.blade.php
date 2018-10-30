@@ -26,12 +26,35 @@
 
 @section('content')
             <div class="row">
-                <div class="col-12 col-md-12">
+                <div class="col-12 col-md-8">
                     <div class="gazette-todays-post">
-                        <div class="gazette-heading">
+                        {{--  <div class="gazette-heading">
                             <h4 class="font-bold">Publications</h4>
+                        </div>  --}}
+
+                        <div class="table table-striped">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Document</th>
+                                        <th>Posted at</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach($posts as $post)
+                                    <tr>
+                                        <td><a href="{{ asset('ibitabo/'.$post->pdf) }}" class="font-pt mb-2">{{ ucfirst(substr($post->title, 0, 150)) }}{{ ucfirst(strlen($post->title) > 150 ? '...' : "") }}</a></td>
+                                        <td><a href="{{ asset('ibitabo/'.$post->pdf) }}" target="_blank">{{ $post->pdf }}</a></td>
+                                        <td>{{ date('D jS, M h:ia', strtotime($post->updated_at)) }}</td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
                         </div>
-                        @forelse($posts as $post)
+                        <!-- /.table-responsive -->
+
+                        {{--  @forelse($posts as $post)
 
                         <!-- Single Today Post -->
                         <div class="gazette-single-todays-post d-md-flex align-items-start mb-50">
@@ -54,7 +77,7 @@
                             </div>
                         </div>
 
-                        @endforelse
+                        @endforelse  --}}
                     </div>
                 </div>
             </div>

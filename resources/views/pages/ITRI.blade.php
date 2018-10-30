@@ -41,6 +41,18 @@
                 </div> --}}
                 <div class="col-12 col-md-12">
                     <div class="gazette-heading">
+                        <h4 class="font-bold">Supply Chain Policy on Minerals from Conflict-affected and High-Risk areas</h4>
+                    </div>
+                    <div class="single-post-blockquote">
+                        <blockquote>
+                            <h6 class="font-pt mb-0">
+                                At Minerals Supply Africa Ltd (MSA), we recognize that as a Minerals Exporter Company and one of the largest Minerals Exporter in Rwanda, our mineral supply chain activities have a broad impact on the mining industry and that our responsibilities extend beyond our own operations into those of our suppliers.<br/>
+                                At the same time, <b>we continuously strive to insure that we deal with our suppliers in an open and transparent way.</b><br/>
+                                Since the 1st of April 2011, MSA only buys minerals that are traceable under the <a href="https://www.itri.co.uk/index.php?option=com_zoo&view=item&Itemid=189" target="_blank">iTSCi</a> system of tagging implemented by <a href="https://www.minirena.gov.rw/" target="_blank">OGMR/GMD</a>.
+                            </h6>
+                        </blockquote>
+                    </div>
+                    <div class="gazette-heading corp">
                         <h4 class="font-bold">MSA Ltd Due diligence Risk Management plan to implement OECD guidelines from minerals conflict-affected and high risk areas.</h4>
                     </div>
                    <div class="single-post-blockquote">
